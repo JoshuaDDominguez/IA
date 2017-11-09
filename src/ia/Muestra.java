@@ -10,9 +10,13 @@ package ia;
  * @author jdominguezdominguez
  */
 public class Muestra {
+    Pedir obx = new Pedir();
     public String muestraNombre(){
-        Pedir obx = new Pedir();
-        String nombre = obx.pedirNombre();
+         String nombre = obx.pedirNombre();
                 return nombre;
+    }
+    public String muestraApellidos(){
+        String apellidos= obx.pedirApellidos();
+            return apellidos;
     }
 }
