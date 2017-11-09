@@ -10,5 +10,10 @@ import java.util.Scanner;
  * @author jdominguezdominguez
  */
 public class Pedir {
-    
+    Scanner sc=new Scanner(System.in);
+    public String pedirNombre(){
+        System.out.println("Como se llama usted?");
+        String nombre=sc.nextLine();
+        return nombre;
+    }
 }
