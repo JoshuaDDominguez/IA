@@ -16,8 +16,10 @@ public class IA {
      */
     public static void main(String[] args) {
 
-Muestra obx = new Muestra();
-System.out.println("Saludos"+obx.muestraNombre());
+        Muestra obx = new Muestra();
+        String nombre=obx.muestraNombre();
+        String apellidos= obx.muestraApellidos();
+        System.out.println("Encantado de conocerle "+nombre+" "+apellidos);
     }
     
 }
