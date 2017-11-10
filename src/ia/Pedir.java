@@ -14,6 +14,7 @@ public class Pedir {
     public String pedirNombre(){
         System.out.println("Como se llama usted?");
         String nombre=sc.nextLine();
+        int variable=0;
         return nombre;
     }
 }
